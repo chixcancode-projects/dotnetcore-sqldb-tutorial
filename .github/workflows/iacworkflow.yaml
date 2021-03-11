@@ -7,7 +7,7 @@ on:
 
 env:
     AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID  }}    # set this to your Azure Subscription Id
-    AZURE_RESOURCEGROUP_NAME: gh-actions-demo-rg                      # set this to your preferred resource group name
+    AZURE_RESOURCEGROUP_NAME: bam-gh-actions-demo-rg                      # set this to your preferred resource group name
     AZURE_WEBAPP_NAME: gh-actions-demo-app                          # set this to your preferred web app name
     ASP_NAME: gh-actions-demo-asp
     SQLSERVER_NAME: gh-actions-demo-dbsrv                          # set this to your preferred sql server name
