@@ -3,7 +3,7 @@ on:
     push:
         paths: 
         - 'ARM/**'
-        - '.github/workflows/iacworkflow.yml'
+        - '.github/workflows/iacworkflow.yaml'
 
 env:
     AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID  }}    # set this to your Azure Subscription Id
